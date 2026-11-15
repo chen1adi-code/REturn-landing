@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>REturn | עשרת ימי תשובה מינית – עדי חן</title>
+<meta name="description" content="מסע של 10 ימים לחיבור מחדש עם האנרגיה המינית ולשחרור דפוסים פורנוגרפיים. חצי שעה ביום, תרגול יומי, ליווי אישי ופגישה אישית עם עדי חן.">
+<meta property="og:title" content="REturn | עשרת ימי תשובה מינית">
+<meta property="og:description" content="מה קורה כשמשחררים את הצורך בפורנו ומתחילים לגלות מה התשוקה שלך באמת מבקשת?">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#FFFCEE; --ink:#2A1414; --muted:#5E4A48; --line:#DDD5BF; --sage:#9CAF98; --sage-ink:#143D14;
+  --forest:#143D14; --wine:#4C0F0F; --amber:#C15C08; --on-dark:#FFFCEE; --card:#F6F1DF;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){--paper:#121A12;--ink:#F1ECDA;--muted:#B9B3A0;--line:#2C3A2C;--sage:#26382A;--sage-ink:#EAF0E4;--card:#1A261A}
+}
+:root[data-theme="dark"]{--paper:#121A12;--ink:#F1ECDA;--muted:#B9B3A0;--line:#2C3A2C;--sage:#26382A;--sage-ink:#EAF0E4;--card:#1A261A}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:Rubik,system-ui,sans-serif;font-weight:300;font-size:1.125rem;line-height:1.75}
+h1,h2,h3{font-weight:800;line-height:1.2;margin:0}
+p{margin:0 0 1em;max-width:60ch}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--amber);outline-offset:3px}
+.wrap{max-width:980px;margin:0 auto;padding:0 24px}
+section{padding:80px 0}
+h2{font-size:clamp(1.7rem,4.6vw,2.5rem);margin-bottom:24px}
+.lead{font-size:1.25rem}
+
+/* shape language: square with one rounded corner */
+.rc{border-start-start-radius:44px}
+.btn{display:inline-block;background:var(--amber);color:#FFFCEE;font-weight:500;font-size:1.15rem;padding:15px 34px;text-decoration:none;border-start-start-radius:22px;border-radius:2px;border-start-start-radius:22px}
+.btn:hover{filter:brightness(1.1)}
+.btn.ghost{background:transparent;border:1.5px solid currentColor;color:inherit}
+
+.hero{position:relative;min-height:100svh;display:flex;flex-direction:column;justify-content:flex-end;color:var(--on-dark);background:#1b1a0e url(hero.jpg) center 40%/cover}
+.hero::before{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(10,20,8,.88) 8%,rgba(10,20,8,.35) 55%,rgba(10,20,8,.15))}
+.hero .logo{position:absolute;top:calc(24px + env(safe-area-inset-top,0px));inset-inline-start:24px;width:84px;height:auto;z-index:1}
+.hero .in{position:relative;padding-block:120px 56px}
+.hero .tag{font-weight:500;margin:0 0 14px;opacity:.9}
+.hero h1{font-size:clamp(1.9rem,5.6vw,3.6rem);max-width:21ch}
+.hero .sub{font-size:1.2rem;margin:22px 0 0;max-width:46ch}
+.facts{display:flex;flex-wrap:wrap;gap:10px 28px;margin:24px 0 0;padding:0;list-style:none;font-weight:500}
+.facts li+li{border-inline-start:1px solid rgba(255,252,238,.5);padding-inline-start:28px}
+.cta-row{display:flex;flex-wrap:wrap;align-items:center;gap:16px 24px;margin-top:32px}
+.count{display:flex;gap:18px;font-variant-numeric:tabular-nums}
+.count b{display:block;font-size:1.9rem;font-weight:800;line-height:1}
+.count span{font-size:.85rem;opacity:.85}
+.count-done{font-weight:500}
+
+.recog ul{list-style:none;padding:0;margin:24px 0;max-width:56ch}
+.recog li{padding:14px 0;border-bottom:1px solid var(--line)}
+.shift{background:var(--sage);color:var(--sage-ink)}
+.shift h2{max-width:20ch}
+.what .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;margin-top:32px}
+.what .it{background:var(--card);padding:26px 24px;border-start-start-radius:36px}
+.what h3{font-size:1.15rem;margin-bottom:6px;color:var(--wine)}
+.what p{margin:0;color:var(--muted);font-size:1rem}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .what h3{color:#E9B58F}}
+.top{display:grid;grid-template-columns:1fr minmax(240px,340px);gap:48px;align-items:center}
+@media (max-width:760px){.top{grid-template-columns:1fr}}
+.vid{width:100%;max-width:340px;aspect-ratio:2/3;border-start-start-radius:56px;overflow:hidden;background:#000;justify-self:center}
+.vid video{width:100%;height:100%;object-fit:cover;display:block}
+.out{padding-top:0}
+.out .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:32px;margin-top:28px}
+.out .cols div{border-top:2px solid var(--amber);padding-top:16px}
+.out h3{font-size:1.1rem;margin-bottom:6px}
+.out p{margin:0;color:var(--muted);font-size:1rem}
+.value .rows{margin:28px 0 0;padding:0;list-style:none;max-width:760px}
+.value .rows li{display:flex;justify-content:space-between;gap:24px;padding:16px 0;border-bottom:1px solid var(--line)}
+.value .rows b{font-weight:500;white-space:nowrap}
+.value .rows span{color:var(--muted);font-size:1rem}
+.value .sum{max-width:760px;margin-top:24px;display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 28px}
+.value .sum s{color:var(--muted);font-size:1.3rem}
+.value .sum strong{font-size:2.2rem;font-weight:800;color:var(--wine)}
+.value .fine{font-size:.9rem;color:var(--muted);margin-top:12px}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .value .sum strong{color:#E9B58F}}
+.sticky{position:fixed;inset-inline:0;bottom:0;z-index:20;background:var(--wine);color:var(--on-dark);display:flex;justify-content:space-between;align-items:center;gap:12px;padding:10px 20px calc(10px + env(safe-area-inset-bottom,0px));transform:translateY(110%);transition:transform .25s}
+.sticky.on{transform:none}
+.sticky .btn{padding:10px 24px;font-size:1rem}
+@media (prefers-reduced-motion:reduce){.sticky{transition:none}}
+.cta{margin:36px 0 0}
+.vcol{width:100%;max-width:340px;justify-self:center}
+.vcap{font-size:.95rem;color:var(--muted);margin:12px 0 0;text-align:center}
+.stack{position:relative;height:430px;max-width:420px;margin:36px auto 12px;overflow:hidden}
+.stack img{position:absolute;left:50%;top:0;width:min(230px,66vw);aspect-ratio:4/3;object-fit:cover;object-position:top;border:1px solid rgba(255,252,238,.25);border-radius:6px;border-start-start-radius:20px;box-shadow:0 10px 24px rgba(0,0,0,.4);transform:translateX(calc(-50% + var(--x,0px))) translateY(var(--y,0px)) rotate(var(--r,0deg))}
+.voices .cap{text-align:center;font-size:.95rem;opacity:.8;margin:0 auto 36px}
+.car{margin:8px auto 0;max-width:680px}
+.track{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:8px;scrollbar-width:none}
+.track::-webkit-scrollbar{display:none}
+.qc{flex:0 0 100%;scroll-snap-align:start;margin:0;padding:26px;background:rgba(255,252,238,.08);border-start-start-radius:36px;display:flex;flex-direction:column;justify-content:space-between;gap:16px}
+.qc blockquote{margin:0;font-size:1.05rem}
+.qc figcaption b{display:block;font-weight:500}
+.qc figcaption span{font-size:.85rem;opacity:.75}
+.ctrl{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:16px}
+.ctrl .prev,.ctrl .next{width:48px;height:48px;border:1.5px solid var(--on-dark);background:transparent;color:var(--on-dark);font-size:1.3rem;cursor:pointer;border-radius:3px;border-start-start-radius:16px}
+.ctrl .prev:hover,.ctrl .next:hover{background:rgba(255,252,238,.12)}
+.dots{display:flex;flex-wrap:wrap;justify-content:center}
+.dots button{width:22px;height:22px;padding:0;border:0;background:none;cursor:pointer}
+.dots button::after{content:"";display:block;width:10px;height:10px;margin:auto;border:1.5px solid var(--on-dark);border-radius:50%;opacity:.6}
+.dots button.on::after{background:var(--on-dark);opacity:1}
+.lead label{display:block;margin:0 0 14px}
+.lead input{display:block;width:100%;margin-top:6px;padding:13px 14px;font:inherit;color:inherit;background:rgba(255,252,238,.08);border:1.5px solid rgba(255,252,238,.5);border-radius:3px;border-start-start-radius:14px}
+.lead .btn{border:0;cursor:pointer;font-family:inherit}
+.lead-note{font-size:.9rem;opacity:.8;margin:12px 0 0}
+.lead-err{color:#FFD9C2;margin:12px 0 0}
+.hp{position:absolute;left:-9999px;height:0;overflow:hidden}
+#pay .btn{display:inline-block}
+.note{margin-top:28px;max-width:60ch;color:var(--muted)}
+
+.voices{background:var(--forest);color:var(--on-dark)}
+.voices h2{max-width:18ch}
+.q{margin:0 0 20px;padding:26px 26px;background:rgba(255,252,238,.07);border-start-start-radius:36px}
+.q blockquote{margin:0 0 12px;font-size:1.05rem}
+.q cite{font-style:normal;font-size:.9rem;opacity:.75}
+.qs{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
+.voices h3{font-size:1.2rem;margin:40px 0 16px}
+.voices .small{font-size:.9rem;opacity:.75;margin-top:24px}
+
+.about .cols{display:grid;grid-template-columns:minmax(220px,340px) 1fr;gap:48px;align-items:start}
+.about img.me{width:100%;height:auto;display:block;border-start-start-radius:80px;aspect-ratio:3/4;object-fit:cover}
+@media (max-width:720px){.about .cols{grid-template-columns:1fr}.about img.me{max-width:320px}}
+
+.fit{background:var(--card)}
+.fit .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:48px}
+.fit ul{padding-inline-start:1.2em;margin:0}
+.fit li{margin-bottom:10px}
+.fit h2{font-size:1.7rem}
+.fit .bold{font-weight:500;margin-top:36px;font-size:1.25rem}
+
+.offer{background:var(--wine);color:var(--on-dark)}
+.offer .box{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+@media (max-width:720px){.offer .box{grid-template-columns:1fr}}
+.price{font-size:4rem;font-weight:800;line-height:1}
+.offer ul{padding-inline-start:1.2em;margin:0 0 0}
+.offer li{margin-bottom:8px}
+.promise{grid-column:1/-1;background:#FFFCEE;color:#2A1414;padding:36px 32px;border-start-start-radius:56px}
+.promise h3{font-size:1rem;font-weight:500;color:#C15C08;margin-bottom:10px}
+.promise .big{font-size:clamp(1.5rem,4vw,2.2rem);font-weight:800;line-height:1.3;color:#4C0F0F;margin:0 0 14px;max-width:26ch}
+.promise p{margin:0;font-size:1.05rem;max-width:56ch}
+
+details{border-bottom:1px solid var(--line);padding:18px 0;max-width:760px}
+summary{cursor:pointer;font-weight:500;font-size:1.1rem}
+details p{margin:12px 0 0;color:var(--muted)}
+
+.final{background:var(--forest);color:var(--on-dark);text-align:center}
+.final h2{margin-inline:auto;max-width:18ch}
+.final p{margin-inline:auto}
+.final .count{justify-content:center;margin-top:24px}
+footer{background:var(--forest);color:var(--on-dark);padding:0 0 40px;text-align:center;font-size:.9rem}
+footer img{width:56px;height:auto;opacity:.9}
+footer p{margin:14px auto 0;max-width:62ch;opacity:.75}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <img class="logo" src="logo.svg" alt="עדי חן – לשוב אל עוצמתך" width="84" height="84">
+  <div class="wrap in">
+    <p class="tag">REturn · עשרת ימי תשובה מינית</p>
+    <h1>מה קורה כשמשחררים את הצורך בפורנו, ומתחילים לגלות מה התשוקה שלך באמת מבקשת?</h1>
+    <p class="sub">מסע של 10 ימים לחיבור מחדש עם האנרגיה המינית ולשחרור דפוסים פורנוגרפיים.</p>
+    <ul class="facts"><li>10 ימים</li><li>חצי שעה ביום</li><li>ליווי אישי ותרגול יומי</li></ul>
+    <div class="cta-row">
+      <a class="btn" href="#join">אני רוצה להצטרף</a>
+      <div class="js-count" aria-live="off"></div>
+    </div>
+    <p style="margin:18px 0 0;font-size:1rem;opacity:.92">ואם בסוף התהליך לא קיבלת ערך, הכסף חוזר אליך. בלי אותיות קטנות.</p>
+  </div>
+</header>
+
+<section class="recog">
+  <div class="wrap">
+    <h2>כמה מקום הפורנו תופס בחיים שלך?</h2>
+    <ul>
+      <li>אתה אומר לעצמך ״זה האחרון״, ושוב חוזר.</li>
+      <li>הוא הפך לברירת מחדל ברגעים של שעמום, מתח או בדידות.</li>
+      <li>יש פער בין מי שאתה רוצה להיות לבין מה שקורה בפועל.</li>
+      <li>ניסית להפסיק, והבנת שכוח רצון לבדו לא מספיק.</li>
+    </ul>
+    <p class="lead">אין כאן בושה ואין כאן שיפוט. אתה לא מקולקל, ואתה לא צריך להגיע לתחתית כדי להחליט לבחור אחרת.</p>
+  </div>
+</section>
+
+<section class="shift">
+  <div class="wrap">
+    <h2>אולי הגיע הזמן להפסיק רק לנסות להפסיק.</h2>
+    <p class="lead">לפעמים הפורנו הוא לא הבעיה עצמה. הוא הדרך שבה אנחנו מתמודדים עם בדידות, לחץ, שעמום או צורך שלא קיבל מענה.</p>
+    <p class="lead">כשנלחמים בעצמנו, הדפוס רק מתחזק. כשמתחילים להבין מה מסתתר מתחתיו, נפתחת אפשרות אחרת: לעצור לרגע, ליצור מרווח בין הדחף למעשה, ולבחור.</p>
+    <p class="cta"><a class="btn" href="#join">אני רוצה לבחור אחרת</a></p>
+  </div>
+</section>
+
+<section class="what">
+  <div class="wrap">
+    <div class="top"><div>
+    <h2>מה זה REturn?</h2>
+    <p class="lead">REturn הוא שיבה אל עצמך, וגם קריצה ל-Turn On: להידלק מחדש.</p>
+    <p>השם נשען גם על עשרת ימי תשובה: הזדמנות לעצור, להתבונן, לשוב ולבחור מחדש.</p>
+    <p>בשורש ההרגל הזה יש אנרגיה עצומה שמבקשת ביטוי. כשמנתבים אותה נכון, היא יכולה להפוך ממקור של מאבק ופיצול לכוח של חיים, יצירה וחיבור. זה לא מסע של מלחמה בפורנו ולא של התנזרות מתוך פחד. זה מסע של הכרה, בחירה וגילוי של הכוח שכבר קיים בך.</p>
+    </div>
+    <div class="vcol"><div class="vid"><video controls playsinline preload="metadata" poster="poster.jpg" src="video.mp4" aria-label="עדי חן מסביר על המסע"></video></div><p class="vcap">סרטון הסבר מפורט על מהות המסע וכל הפרטים.</p></div></div>
+    <div class="grid">
+      <div class="it"><h3>הדרכות יומיות</h3><p>להבין לעומק את דפוסי הפורנוגרפיה ואת הקשר שלך לאנרגיה המינית.</p></div>
+      <div class="it"><h3>תרגולים מעשיים</h3><p>ליצור מרווח בין הדחף למעשה, ולבחור אחרת ברגע האמת.</p></div>
+      <div class="it"><h3>היכרות עם הטריגרים</h3><p>לזהות את הרגעים שבהם אתה פועל באוטומט, ומה מסתתר מאחוריהם.</p></div>
+      <div class="it"><h3>חיבור לגוף ולתשוקה</h3><p>להיות פחות תלוי בגירוי חיצוני ולהכיר מחדש את האנרגיה שלך.</p></div>
+      <div class="it"><h3>ליווי בוואטסאפ</h3><p>אני זמין לאורך כל עשרת הימים.</p></div>
+      <div class="it"><h3>פגישה אישית</h3><p>בסיום המסע, פגישה איתי להטמעה ולצעדים הבאים.</p></div>
+    </div>
+    <p class="note">כ-30 דקות ביום. התכנים נשארים פתוחים גם אחרי עשרת הימים. עשרת הימים הם תחילתו של תהליך, לא הבטחה שכל הדפוסים ייעלמו תוך עשרה ימים.</p>
+  </div>
+</section>
+
+<section class="out">
+  <div class="wrap">
+    <h2>עם מה תצא מהמסע</h2>
+    <div class="cols">
+      <div><h3>בהירות לגבי הדחף</h3><p>מה מפעיל אותו, מה הוא מבקש, ומה קורה לך רגע לפני שאתה נכנס ללופ.</p></div>
+      <div><h3>כלים פשוטים ומעשיים</h3><p>לפגוש את הדחף אחרת, ליצור מרווח לפני הפעולה ולבחור איך לפעול.</p></div>
+      <div><h3>תחושת מסוגלות וכיוון</h3><p>להפוך את האנרגיה המינית ממקור של מאבק לכוח של חיים, יצירה וחיבור.</p></div>
+    </div>
+    <p class="cta"><a class="btn" href="#join">אני רוצה להתחיל</a></p>
+  </div>
+</section>
+
+<section class="voices">
+  <div class="wrap">
+    <h2>קשה לך להאמין? תקרא מה כתבו אחרים.</h2>
+    <div class="stack" aria-hidden="false"><img src="shot1.jpg" alt="הודעה שקיבלתי ממשתתף" style="--x:-40px;--y:0px;--r:-7deg" loading="lazy"><img src="shot2.jpg" alt="הודעה שקיבלתי ממשתתף" style="--x:42px;--y:30px;--r:6deg" loading="lazy"><img src="shot3.jpg" alt="הודעה שקיבלתי ממשתתף" style="--x:-36px;--y:68px;--r:-4deg" loading="lazy"><img src="shot4.jpg" alt="הודעה שקיבלתי ממשתתף" style="--x:38px;--y:104px;--r:5deg" loading="lazy"><img src="shot5.jpg" alt="הודעה שקיבלתי ממשתתף" style="--x:-42px;--y:142px;--r:-6deg" loading="lazy"><img src="shot6.jpg" alt="הודעה שקיבלתי ממשתתף" style="--x:34px;--y:176px;--r:3deg" loading="lazy"><img src="shot7.jpg" alt="הודעה שקיבלתי ממשתתף" style="--x:0px;--y:212px;--r:-2deg" loading="lazy"></div>
+    <p class="cap">הודעות אמיתיות שקיבלתי, כמו שהגיעו.</p>
+    <div class="car" role="region" aria-roledescription="קרוסלה" aria-label="המלצות משתתפים">
+      <div class="track" tabindex="0"><figure class="qc"><blockquote>״אני חושב שהדרך שעדי מציע היא הדרך הנכונה להתמודד מול הפורנו. התוכנית לא מנסה לדכא ולהחזיק אותנו במלחמה מתמדת, אלא לגלות את הכוחות החיוביים שבנו. במקום מלחמה, חיזוק של הכוחות הקיימים. במקום אשמה, גילוי וחמלה. עם הכלים והרבה סבלנות אני רואה שיפור, והכי חשוב, חיזוק של הרצון שלי.״</blockquote><figcaption><b>ב׳, בן 22</b><span>משתתף ב-REturn</span></figcaption></figure><figure class="qc"><blockquote>״אחרי יותר מ-20 שנה של שימוש בפורנו ואינספור ניסיונות להפסיק, החלטתי לנסות שוב, הפעם בעזרת עדי. התרגילים מעשיים ונגישים, ובעיקר אני מרגיש שיש איתי עוד מישהו על זה. חוויית הלבד תמיד הקשתה עליי, וכעת אני לא מרגיש לבד בכלל. האווירה הלא שיפוטית עוזרת לי גם בהצלחות וגם בקושי ובנפילות.״</blockquote><figcaption><b>מיכאל</b><span>משתתף ב-REturn</span></figcaption></figure><figure class="qc"><blockquote>״בפעמיים האחרונות שעלה דחף, הידיעה שיש אסטרטגיה ויש עומק נתנה לי מרווח, והצלחתי להימנע בלי מאבקים. זה מאוד עוזר שיש דרך ולא הולכים אל הלא נודע.״</blockquote><figcaption><b>אורי</b><span>משתתף ב-REturn</span></figcaption></figure><figure class="qc"><blockquote>״באחד התרגילים כתבתי 10 סיבות למה לקחתי על עצמי להיגמל מפורנוגרפיה. הדבר הראשון שעלה הוא שאני רוצה להרגיש יותר עוצמה בחיים. מאז שהתחלתי אני מרגיש שכוחות הרצון שעולים בי הופכים אותי לאדם יותר שמח, בן זוג אוהב וכנה ואבא מכיל וסבלני.״</blockquote><figcaption><b>רועי</b><span>משתתף ב-REturn</span></figcaption></figure><figure class="qc"><blockquote>״שתי ההדרכות הראשונות היו משמעותיות מאוד בעיניי. היה מעניין לחזור לגילאים של לפני יותר מ-20 שנה ולראות איך זיכרונות ו’פלאשבקים’ בנושא עדיין משפיעים עד היום. מצפה להדרכות הבאות.״</blockquote><figcaption><b>גל</b><span>משתתף ב-REturn</span></figcaption></figure><figure class="qc"><blockquote>״הדרכה 3 מאוד פרקטית ונכונה לכל התמכרות בגדול. הדרכה 4 פתחה לי פתאום עולם שלא הכרתי ולא ידעתי שקיים. זה מסקרן מאוד, מה אפשר לעשות עם זה ואילו כלים לחיים אפשר ליישם מהאנרגיה הזו.״</blockquote><figcaption><b>עידו</b><span>משתתף ב-REturn</span></figcaption></figure><figure class="qc"><blockquote>״התהליך עם עדי גרם לי להיות יותר מחובר לעצמי, לערכים, לצרכים ולרצונות שלי. הופתעתי לגלות את העומק שהגעתי אליו בפגישות ולהבין איך הפורנו קשור לדברים אחרים בחיים שלי. קיבלתי כלים להיות מחובר למיניות שלי בלי התלות בפורנו.״</blockquote><figcaption><b>איתי</b><span>מתוך הליווי האישי</span></figcaption></figure><figure class="qc"><blockquote>״בפגישה הראשונה אמרתי שאני לא בהכרח רוצה להפסיק לצפות. הייתי מוכן להכניס מודעות ושליטה, אבל לא להיפרד מהפורנו. היום, אחרי יותר משלושה וחצי חודשים בלי פורנו, גיליתי עולם עם הרבה יותר תשוקה ויותר ביטחון מול נשים. אני נמשך הרבה יותר לבנות אמיתיות, להבדיל מהבנות שבמסך.״</blockquote><figcaption><b>דן</b><span>מתוך הליווי האישי</span></figcaption></figure><figure class="qc"><blockquote>״תהליך עמוק שנוגע בשורשים עתיקים סביב היצר המיני. אני מגלה אינטימיות חדשה. ממליץ בחום לכל גבר להתחיל לחקור את עצמו ולהיות יותר במודעות באיזורים האלו.״</blockquote><figcaption><span>מתוך המלצה בפוסט</span></figcaption></figure></div>
+      <div class="ctrl"><button type="button" class="prev" aria-label="ההמלצה הקודמת">→</button><div class="dots"></div><button type="button" class="next" aria-label="ההמלצה הבאה">←</button></div>
+    </div>
+    <p class="small">השמות שונו לשמירה על הפרטיות. אלה חוויות אישיות, והתוצאות שונות מאדם לאדם. איננו מבטיחים תוצאה זהה לכולם.</p>
+  </div>
+</section>
+
+<section class="about">
+  <div class="wrap cols">
+    <img class="me" src="adi.jpg" alt="עדי חן" width="360" height="480" loading="lazy">
+    <div>
+      <h2>מי אני</h2>
+      <p class="lead">אני עדי חן, נשוי לספיר ואבא לגאיה.</p>
+      <p>גבר שחוקר לעומק את עצמו ואת המיניות שלו, ועבר על בשרו את הדרך להשתחרר מהדפוסים הפורנוגרפיים. היום כבר 7 שנים ללא פורנו כלל.</p>
+      <p>אני מלווה גברים לשחרור מהצורך בפורנו, ליצירת חיבור אינטימי, נוכחות עמוקה וחיים מתוך תשוקה. העבודה שלי נשענת על שנים במכון לטיפול בהתמכרויות, שם פגשתי וליוויתי קרוב ל-2,000 מטופלים עם התמכרויות שונות, ועל שנים של הנחיית נערים וגברים בתחום המיניות.</p>
+      <p>אני לא מגיע מעמדה של שיפוט או מאבק במיניות. אני רואה באנרגיה המינית כוח חיים שיכול להיות מקור לחיבור, ליצירה, לחיוניות ולעוצמה.</p>
+    </div>
+  </div>
+  <div class="wrap"><p class="cta"><a class="btn" href="#join">הצטרף למסע</a></p></div>
+</section>
+
+<section class="fit">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <h2>המסע מתאים לך אם</h2>
+        <ul>
+          <li>אתה חוזר לצפות בפורנו גם כשהחלטת שלא.</li>
+          <li>אתה רוצה יותר נוכחות, חיוניות ותשוקה בחיים.</li>
+          <li>ניסית להפסיק בעבר וגילית שכוח רצון לא מספיק.</li>
+          <li>הפסקת לצפות, אבל המאבק והדחף עדיין קיימים.</li>
+          <li>אתה מוכן להתבונן בעצמך ולתרגל.</li>
+        </ul>
+      </div>
+      <div>
+        <h2>ופחות אם</h2>
+        <ul>
+          <li>אתה מחפש לגעת רק בתוצאות ולא בסיבות.</li>
+          <li>אתה מחפש פתרון מיידי ושטחי.</li>
+          <li>אתה מצפה שמישהו אחר יעשה את העבודה הפנימית בשבילך.</li>
+        </ul>
+      </div>
+    </div>
+    <p class="bold">לא חייבים להגדיר את עצמך כמכור כדי להצטרף.</p>
+  </div>
+</section>
+
+<section class="value">
+  <div class="wrap">
+    <h2>למה המחיר כל כך נמוך?</h2>
+    <p class="lead">בקליניקה הפרטית שלי תהליך כזה עולה אלפי שקלים. רציתי שמי שצריך את זה יוכל להגיע, כי אני יודע כמה גברים מתמודדים היום עם האתגר הזה. לכן לקחתי את מה שלמדתי ובניתי מסע מדויק ומעשי, במחיר שלא יעמוד בדרכך. המחיר נמוך כדי שתוכל להתחיל, לא כי התוכן קל משקל.</p>
+    <ul class="rows">
+      <li><div>10 הדרכות ותרגולים<br><span>מדויקות ומזוקקות מתוך הרבה ניסוי וטעייה, על בסיס שנים של עבודה במכון להתמכרויות והנחיית נערים וגברים</span></div><b>₪800</b></li>
+      <li><div>ליווי אישי בוואטסאפ<br><span>לאורך כל המסע</span></div><b>₪300</b></li>
+      <li><div>פגישה אישית איתי בסיום<br><span>לראות מה עבד, מה לא, וליצור דיוקים אישיים להמשך</span></div><b>₪350</b></li>
+      <li><div>גישה מתמשכת לכל התכנים<br><span>לחזור ולהעמיק בכל פעם שתרצה</span></div><b>₪200</b></li>
+    </ul>
+    <div class="sum"><span>ערך משוער: <s>₪1,650</s></span><span>המחיר שלך: <strong>₪180</strong></span></div>
+    <p class="fine">הערכים משוערים ומובאים להמחשה.</p>
+  </div>
+</section>
+
+<section class="offer" id="join">
+  <div class="wrap box">
+    <div>
+      <h2>מתחילים ביום רביעי, 18.11, בשעה 20:00</h2>
+      <div class="price">₪180</div>
+      <p style="margin-top:8px">מחיר סמלי: 10 כפול 18, חי. התשלום מסמל בחירה והתחייבות. אם המחיר מאתגר אותך, דבר איתי ונמצא פתרון.</p>
+      <div class="js-count" style="margin:20px 0"></div>
+      <form id="lead" name="lead" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="lead">
+        <input type="hidden" name="form-name" value="lead">
+        <p class="hp"><label>אל תמלא שדה זה: <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+        <label>שם<input name="name" required autocomplete="given-name"></label>
+        <label>אימייל<input type="email" name="email" required autocomplete="email" dir="ltr"></label>
+        <label>טלפון<input type="tel" name="phone" required autocomplete="tel" dir="ltr" inputmode="tel"></label>
+        <button class="btn" type="submit">המשך</button>
+        <p class="lead-note">הפרטים ישמשו ליצירת קשר לגבי המסע בלבד.</p>
+        <p class="lead-err" id="lead-err" role="alert" hidden>משהו השתבש בשליחה. נסה שוב בעוד רגע.</p>
+      </form>
+      <div id="pay" hidden>
+        <p class="lead" style="margin:0 0 16px">תודה! הפרטים התקבלו. השלב האחרון: תשלום.</p>
+        <a class="btn" id="paylink" href="https://mrng.to/EcHJo9s5sB" rel="noopener">לתשלום</a>
+      </div>
+    </div>
+    <div>
+      <ul>
+        <li>10 ימים של הדרכות ותרגול, כחצי שעה ביום</li>
+        <li>זמינות שלי בוואטסאפ לאורך המסע</li>
+        <li>פגישה אישית איתי בסיום, שבה נבדוק מה עבד ומה לא. פגישה כזו לבדה עולה בערך פי שניים ממחיר המסע כולו</li>
+        <li>גישה מתמשכת לכל התכנים</li>
+      </ul>
+      </div>
+    <div class="promise">
+      <h3>ההבטחה שלי אליך</h3>
+      <p class="big">אם בסוף התהליך תרגיש שלא קיבלת ערך, הכסף חוזר אליך.</p>
+      <p>בלי תנאים נסתרים ובלי אותיות קטנות. אני יודע כמה הצעד הראשון יכול להיות מפחיד, ולכן אני לא רוצה ששום דבר חיצוני יעמוד בינינו.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>שאלות נפוצות</h2>
+    <details><summary>האם חייבים להיות מכורים?</summary><p>לא. אפשר להצטרף גם בלי להגדיר את עצמך ככה. מספיק שתרגיש שהפורנו תופס מקום שאתה כבר לא רוצה לתת לו.</p></details>
+    <details><summary>האם צריך להפסיק לצפות בפורנו לחלוטין?</summary><p>המסע לא נבנה סביב מלחמה או התנזרות מתוך פחד, אלא סביב יצירת מרווח בין הדחף למעשה ובחירה מודעת. מה תבחר, זו החלטה שלך.</p></details>
+    <details><summary>כמה זמן צריך להשקיע ביום?</summary><p>כחצי שעה.</p></details>
+    <details><summary>האם יש ליווי?</summary><p>כן. אני זמין בוואטסאפ לאורך כל המסע, ובסיומו יש פגישה אישית איתי.</p></details>
+    <details><summary>האם התכנים נשארים פתוחים?</summary><p>כן, גם אחרי עשרת הימים, כדי שתוכל לחזור ולהעמיק.</p></details>
+    <details><summary>מה קורה אם אני מפספס יום?</summary><p>התכנים נשארים פתוחים, ואפשר לחזור אליהם. זה תהליך, לא מבחן.</p></details>
+    <details><summary>ומה אם זה לא מתאים לי?</summary><p>אם בסוף התהליך תרגיש שלא קיבלת ערך, הכסף חוזר אליך. בלי תנאים נסתרים ובלי אותיות קטנות.</p></details>
+    <details><summary>אני כבר ניסיתי להפסיק בעבר. זה מתאים לי?</summary><p>כן, וכנראה במיוחד. המסע נועד למי שגילה שכוח רצון לבדו לא מספיק, ורוצה להבין מה עומד מאחורי הדפוס.</p></details>
+  </div>
+</section>
+
+<section class="final">
+  <div class="wrap">
+    <h2>מה היה קורה אם היית יכול לעצור לרגע ולבחור אחרת?</h2>
+    <p class="lead">נסה בעצמך. עשרה ימים, חצי שעה ביום.</p>
+    <div class="js-count"></div>
+    <p style="margin-top:28px"><a class="btn" href="#join">אני בא למסע</a></p>
+  </div>
+</section>
+
+<div class="sticky" id="sticky" aria-hidden="true"><span>REturn · ₪180</span><a class="btn" href="#join" tabindex="-1">הצטרף למסע</a></div>
+
+<footer>
+  <img src="symbol.svg" alt="" width="56" height="54">
+  <p>עדי חן · לשוב אל עוצמתך</p>
+  <p>המסע הוא תהליך הדרכה והעצמה, ואינו מחליף טיפול רפואי או נפשי כשיש בו צורך.</p>
+</footer>
+
+<script>
+(function(){
+  var bar=document.getElementById('sticky');
+  if(!bar||!('IntersectionObserver' in window))return;
+  var hidden={hero:true,join:false,final:false};
+  function upd(){var on=!hidden.hero&&!hidden.join&&!hidden.final;bar.classList.toggle('on',on);bar.setAttribute('aria-hidden',on?'false':'true');bar.querySelector('a').tabIndex=on?0:-1;}
+  [['hero','.hero'],['join','#join'],['final','.final']].forEach(function(x){
+    var el=document.querySelector(x[1]);if(!el)return;
+    new IntersectionObserver(function(e){hidden[x[0]]=e[0].isIntersecting;upd();}).observe(el);
+  });
+})();
+</script>
+<script>
+(function(){
+  var target=Date.UTC(2026,10,18,18,0,0); /* 20:00 שעון ישראל (UTC+2) */
+  var boxes=document.querySelectorAll('.js-count');
+  function render(){
+    var d=target-Date.now(),html;
+    if(d<=0){html='<span class="count-done">המסע כבר יצא לדרך.</span>';}
+    else{
+      var days=Math.floor(d/864e5),h=Math.floor(d%864e5/36e5),m=Math.floor(d%36e5/6e4);
+      html='<div class="count" role="timer" aria-label="הזמן שנותר להתחלה">'
+        +'<div><b>'+days+'</b><span>ימים</span></div>'
+        +'<div><b>'+h+'</b><span>שעות</span></div>'
+        +'<div><b>'+m+'</b><span>דקות</span></div></div>';
+    }
+    for(var i=0;i<boxes.length;i++){boxes[i].innerHTML=html;}
+  }
+  render();setInterval(render,30000);
+})();
+</script>
+<script>
+(function(){
+  var tr=document.querySelector('.track');if(!tr)return;
+  var cards=tr.children,n=cards.length,dots=document.querySelector('.dots'),cur=0;
+  var rm=window.matchMedia&&matchMedia('(prefers-reduced-motion:reduce)').matches;
+  function step(){return cards[0].getBoundingClientRect().width+16;}
+  function to(i){i=Math.max(0,Math.min(n-1,i));tr.scrollTo({left:-i*step(),behavior:rm?'auto':'smooth'});}
+  for(var i=0;i<n;i++){(function(i){var b=document.createElement('button');b.type='button';b.setAttribute('aria-label','המלצה '+(i+1)+' מתוך '+n);b.addEventListener('click',function(){to(i)});dots.appendChild(b);})(i);}
+  function mark(){cur=Math.round(Math.abs(tr.scrollLeft)/step());var b=dots.children;for(var i=0;i<n;i++){b[i].classList.toggle('on',i===cur);if(i===cur)b[i].setAttribute('aria-current','true');else b[i].removeAttribute('aria-current');}}
+  tr.addEventListener('scroll',mark,{passive:true});mark();
+  document.querySelector('.next').addEventListener('click',function(){to(cur+1)});
+  document.querySelector('.prev').addEventListener('click',function(){to(cur-1)});
+})();
+</script>
+<script>
+(function(){
+  var f=document.getElementById('lead');if(!f)return;
+  f.addEventListener('submit',function(e){
+    e.preventDefault();
+    var err=document.getElementById('lead-err');err.hidden=true;
+    var btn=f.querySelector('button');btn.disabled=true;
+    fetch('/',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams(new FormData(f)).toString()})
+    .then(function(r){if(!r.ok)throw new Error('x');f.hidden=true;document.getElementById('pay').hidden=false;})
+    .catch(function(){err.hidden=false;btn.disabled=false;});
+  });
+})();
+</script>
+</body>
+</html>
